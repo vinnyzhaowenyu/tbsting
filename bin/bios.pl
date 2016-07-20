@@ -14,8 +14,6 @@ use FindBin qw($Bin);
 use strict;
 use warnings;
 use Data::Dumper;
-use POSIX qw(strftime);
-use Time::Local;
 
 BEGIN {
 	unshift ( @INC, "$Bin/../lib" );
@@ -23,10 +21,12 @@ BEGIN {
 
 #use Public::IP;
 #use Public::Log;
-use Public::Time;
+#use Public::Time;
+use Public::Base;
 
-my $t = Public::Time::YmdHMS_;
-print $t;
+my @t = Public::Base::OS_IP;
+
+print "     =>",@t,"\n";
 #my $IP = Public::IP::GetIP;
 #my $result = Public::Log::HardInfo_Log;
 #print $result;
