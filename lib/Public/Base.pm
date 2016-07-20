@@ -1,4 +1,12 @@
 package Public::Base;
-udr strict;
+use strict;
 
+sub OSTYPE {
+	if ('/etc/redhat-release') {
+		# body...
+	}else if{
+
+	}
+
+}
 
