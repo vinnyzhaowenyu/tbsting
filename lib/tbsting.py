@@ -2,6 +2,7 @@
 #coding=utf8
 
 import argparse
+#import cpu
 
 def main():
     """
@@ -11,7 +12,6 @@ def main():
     parser = argparse.ArgumentParser(description="对机器进行体检的工具")
     parser.add_argument('-v', '--version', action='store_true', help='输出版本')
     parser.add_argument('-a', '--autorun', action='store_true', help='自动运行')
-    #parser.add_argument('-h', '--help', action='store_true', help='help帮助')
     parser.add_argument('-c', '--cpu', action='store_true', help='检查CPU')
 
     args = parser.parse_args()
@@ -19,6 +19,8 @@ def main():
         print "version"
     elif args.cpu:
         print "cpu"
+        cpu = cpu.allcpu()
+        cpu.doit()
     elif args.autorun:
         print "auto"
     else:

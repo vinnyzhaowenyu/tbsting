@@ -1,9 +1,15 @@
 #!/bin/sh
 
-which python2
+ABS_PATH=$(cd $(dirname $0) && pwd)
+export  PATH=$PATH:$ABS_PATH
 
-which python3
+PYTHON=`which python2`
 
-init tools
+if [ ! -f $PYTHON ];then
+    PYTHON="$ABS_PATH/tools/python2.7/bin/python2.7"
+fi
 
+# init tools
 
+# run
+$PYTHON $ABS_PATH/lib/tbsting.py $@
