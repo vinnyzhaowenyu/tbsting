@@ -2,7 +2,7 @@
 #coding=utf8
 
 import argparse
-#import cpu
+#from ./lib/cpu import get_vendor
 
 def main():
     """
@@ -19,8 +19,8 @@ def main():
         print "version"
     elif args.cpu:
         print "cpu"
-        cpu = cpu.allcpu()
-        cpu.doit()
+   #     cpu1 = cpu.cpu()
+   #     cpu1.get_vendor()
     elif args.autorun:
         print "auto"
     else:
