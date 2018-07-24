@@ -3,9 +3,9 @@
 
 import argparse
 import sys
+from tbsting.cpu.hwcpu import hwcpu
+from tbsting.cpu.syscpu import syscpu
 
-
-#from cpu import cpu
 
 def main():
     """
@@ -21,9 +21,10 @@ def main():
     if args.version:
         print "version"
     elif args.cpu:
-        print "cpu"
-        #aaa = cpu()
-        #aaa.get_vendor()
+        aaa = hwcpu()
+        aaa.auto()
+        bbb = syscpu()
+        bbb.auto()
     elif args.autorun:
         print "auto"
     else:
@@ -33,5 +34,5 @@ if __name__ == '__main__':
     """
     start
     """
-    print sys.path
+    #print sys.path
     main()
