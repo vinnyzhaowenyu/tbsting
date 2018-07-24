@@ -1,4 +1,4 @@
-#conding=utf8
+# _*_ coding=utf-8 _*_
 
 import subprocess
 
@@ -7,14 +7,15 @@ class hwcpu():
         pass
 
     def auto(self):
-        v=self.vendor()
-        m=self.model_name()
-        s=self.siblings()
-        aa=self.vm_support()
-        print aa
-        print v
-        print m
-        print s
+        v = self.vendor()
+        s = self.siblings()
+        vm = self.vm_support()
+        m = self.model_name()
+
+        print "CPU 厂商: %s" % v['vendor_id']
+        print "CPU 型号: %s" % m['model_name']
+        print "CPU 超线程: %s" % s['siblings']
+        print "CPU 虚拟化支持: %s" % vm['vm_support']
 
     def vendor(self):
         com="grep vendor_id /proc/cpuinfo|sort|uniq"
