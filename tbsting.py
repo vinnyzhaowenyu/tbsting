@@ -3,7 +3,7 @@
 
 import argparse
 import sys
-from tbsting.cpu.hwcpu import hwcpu
+from tbsting.cpu.hwcpu  import hwcpu
 from tbsting.cpu.syscpu import syscpu
 
 
@@ -21,10 +21,10 @@ def main():
     if args.version:
         print "version"
     elif args.cpu:
-        aaa = hwcpu()
-        aaa.auto()
-        bbb = syscpu()
-        bbb.auto()
+        cpuinfo_hwcpu = hwcpu()
+        cpuinfo_hwcpu.auto()
+        cpuinfo_syscpu= syscpu()
+        cpuinfo_syscpu.auto()
     elif args.autorun:
         print "auto"
     else:
