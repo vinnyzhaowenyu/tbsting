@@ -10,6 +10,7 @@ from tbsting.disk.battery import battery
 from tbsting.memory.sysmem import sysmem
 from tbsting.kernel.proc_sys import proc_sys
 from tbsting.network.network import network
+from tbsting.syslog.dmesg import dmesg
 
 
 def main():
@@ -26,6 +27,7 @@ def main():
     parser.add_argument('-m', '--memory', action='store_true', help='检查内存')
     parser.add_argument('-k', '--kernel', action='store_true', help='检查Kernel')
     parser.add_argument('-n', '--network', action='store_true', help='检查Network')
+    parser.add_argument('-s', '--syslog', action='store_true', help='检查系统日志')
 
     args = parser.parse_args()
     if args.version:
@@ -48,6 +50,8 @@ def main():
         proc_sys().auto()
     elif args.network:
         network().auto()
+    elif args.syslog:
+        dmesg().auto()
     elif args.autorun:
         print "auto"
     else:
