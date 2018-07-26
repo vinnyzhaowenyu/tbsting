@@ -8,6 +8,7 @@ from tbsting.cpu.syscpu import syscpu
 from tbsting.fan.hwfan  import hwfan
 from tbsting.disk.battery import battery
 from tbsting.memory.sysmem import sysmem
+from tbsting.kernel.proc_sys import proc_sys
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
     parser.add_argument('-f', '--fan', action='store_true', help='检查风扇')
     parser.add_argument('-d', '--disk', action='store_true', help='检查磁盘')
     parser.add_argument('-m', '--memory', action='store_true', help='检查内存')
+    parser.add_argument('-k', '--kernel', action='store_true', help='检查Kernel')
 
     args = parser.parse_args()
     if args.version:
@@ -40,6 +42,8 @@ def main():
     elif args.memory:
         meminfo_sysmem = sysmem()
         meminfo_sysmem.auto()
+    elif args.kernel:
+        proc_sys().auto()
     elif args.autorun:
         print "auto"
     else:
