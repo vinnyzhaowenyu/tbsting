@@ -1,0 +1,599 @@
+#cat ldpdinfo
+
+Adapter #0
+
+Number of Virtual Disks: 2
+Virtual Drive: 0 (Target Id: 0)
+Name                :
+RAID Level          : Primary-5, Secondary-0, RAID Level Qualifier-3
+Size                : 2.618 TB
+Parity Size         : 893.75 GB
+State               : Optimal
+Strip Size          : 256 KB
+Number Of Drives    : 4
+Span Depth          : 1
+Default Cache Policy: WriteBack, ReadAheadNone, Direct, Write Cache OK if Bad BBU
+Current Cache Policy: WriteBack, ReadAheadNone, Direct, Write Cache OK if Bad BBU
+Default Access Policy: Read/Write
+Current Access Policy: Read/Write
+Disk Cache Policy   : Enabled
+Encryption Type     : None
+PI type: No PI
+
+Is VD Cached: No
+Number of Spans: 1
+Span: 0 - Number of PDs: 4
+
+PD: 0 Information
+Enclosure Device ID: 8
+Slot Number: 0
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 9
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b00002726c
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG317345      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 1 Information
+Enclosure Device ID: 8
+Slot Number: 1
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 12
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b00002726d
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG317484      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 2 Information
+Enclosure Device ID: 8
+Slot Number: 2
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 14
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b00002726e
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG317483      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 3 Information
+Enclosure Device ID: 8
+Slot Number: 3
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 17
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b00002726f
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG318442      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Virtual Drive: 1 (Target Id: 1)
+Name                :
+RAID Level          : Primary-5, Secondary-0, RAID Level Qualifier-3
+Size                : 6.109 TB
+Parity Size         : 893.75 GB
+State               : Optimal
+Strip Size          : 256 KB
+Number Of Drives    : 8
+Span Depth          : 1
+Default Cache Policy: WriteBack, ReadAheadNone, Direct, Write Cache OK if Bad BBU
+Current Cache Policy: WriteBack, ReadAheadNone, Direct, Write Cache OK if Bad BBU
+Default Access Policy: Read/Write
+Current Access Policy: Read/Write
+Disk Cache Policy   : Enabled
+Encryption Type     : None
+PI type: No PI
+
+Is VD Cached: No
+Number of Spans: 1
+Span: 0 - Number of PDs: 8
+
+PD: 0 Information
+Enclosure Device ID: 8
+Slot Number: 4
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 10
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027270
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG315127      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 1 Information
+Enclosure Device ID: 8
+Slot Number: 5
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 16
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027271
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG313997      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 2 Information
+Enclosure Device ID: 8
+Slot Number: 6
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 13
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027272
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG317478      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 3 Information
+Enclosure Device ID: 8
+Slot Number: 7
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 11
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027273
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG318440      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 4 Information
+Enclosure Device ID: 8
+Slot Number: 8
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 15
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027274
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG314004      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 5 Information
+Enclosure Device ID: 8
+Slot Number: 9
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 19
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027275
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG313996      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 6 Information
+Enclosure Device ID: 8
+Slot Number: 10
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 18
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027276
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG316581      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+PD: 7 Information
+Enclosure Device ID: 8
+Slot Number: 11
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 20
+WWN:
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 894.252 GB [0x6fc81ab0 Sectors]
+Non Coerced Size: 893.752 GB [0x6fb81ab0 Sectors]
+Coerced Size: 893.75 GB [0x6fb80000 Sectors]
+Firmware state: Online, Spun Up
+Is Commissioned Spare : NO
+Device Firmware Level: C03Q
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500605b000027277
+Connected Port Number: 0(path0)
+Inquiry Data: S1E4NYAG318441      SAMSUNG MZ7WD960HMHP-00003              DXV8C03Q
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None
+Device Speed: 6.0Gb/s
+Link Speed: 6.0Gb/s
+Media Type: Solid State Device
+Drive Temperature : N/A
+PI Eligibility:  No
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Disabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
