@@ -11,6 +11,9 @@ from tbsting.memory.sysmem import sysmem
 from tbsting.kernel.proc_sys import proc_sys
 from tbsting.network.network import network
 from tbsting.syslog.dmesg import dmesg
+from tbsting.bios.bios import bios
+from tbsting.power.power import power
+from tbsting.mainboard.mainboard import mainboard
 
 
 def main():
@@ -28,6 +31,9 @@ def main():
     parser.add_argument('-k', '--kernel', action='store_true', help='检查Kernel')
     parser.add_argument('-n', '--network', action='store_true', help='检查Network')
     parser.add_argument('-s', '--syslog', action='store_true', help='检查系统日志')
+    parser.add_argument('-p', '--power', action='store_true', help='检查power')
+    parser.add_argument('-b', '--bios', action='store_true', help='检查bios')
+    parser.add_argument('-mb', '--mainboard', action='store_true', help='检查主板')
 
     args = parser.parse_args()
     if args.version:
@@ -52,6 +58,12 @@ def main():
         network().auto()
     elif args.syslog:
         dmesg().auto()
+    elif args.power:
+        power().auto()
+    elif args.bios:
+        bios().auto()
+    elif args.mainboard:
+        mainboard().auto()
     elif args.autorun:
         print "auto"
     else:
