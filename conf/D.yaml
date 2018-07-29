@@ -1,0 +1,8 @@
+# D 
+# D机型主要是做计算
+# 特点是：CPU密集，CPU比较多
+cpu_physical_count: 2 
+cpu_core_count: 64
+memory_count: 32G
+disk_type: ssd
+D1: !include conf.d/D1.yaml

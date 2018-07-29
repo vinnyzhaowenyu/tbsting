@@ -1,0 +1,13 @@
+# common
+# 通用的配置
+com:
+  default_route: True
+
+# 其他配置文件
+A: !include A.yaml
+B: !include B.yaml
+C: !include C.yaml
+D: !include D.yaml
+E: !include E.yaml
+F: !include F.yaml
+G: !include G.yaml

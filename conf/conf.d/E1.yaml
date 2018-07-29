@@ -1,0 +1,7 @@
+# E 
+# E机型主要是做缓存
+# 特点是 ：内存比较大
+cpu_physical_count: 2 
+cpu_core_count: 64
+memory_count: 32G
+disk_type: ssd

@@ -1,0 +1,7 @@
+# C
+# C机型主要是做存储
+# 特点是存储较大：多块大容量磁盘
+cpu_physical_count: 2 
+cpu_core_count: 64
+memory_count: 32G
+disk_type: ssd

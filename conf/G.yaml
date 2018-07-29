@@ -1,0 +1,8 @@
+# G
+# G机型主要使用场景普通服务
+# 特点是通用场景
+cpu_physical_count: 2 
+cpu_core_count: 64
+memory_count: 32G
+disk_type: ssd
+G1: !include conf.d/G1.yaml
